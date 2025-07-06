@@ -1,7 +1,7 @@
 <h1 align="center">
   Tralalero Pet 🦕💜
   <br>
-  <img src="assets/icon/logo.png" height="120" alt="Logo" />
+  <img src="logo.png" height="120" alt="Logo" />
 </h1>
 
 <p align="center">
