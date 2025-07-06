@@ -3,73 +3,60 @@
 Dirección IP, versión del sistema operativo, modelo de dispositivo, idioma, fecha y hora, pantallas visitadas y tiempo de uso. Se emplean para analítica, detección de errores y mejoras de rendimiento.
 
 1.2 Ubicación aproximada
-Ciudad o región inferida por la dirección IP (no usamos GPS). Sirve para estadísticas agregadas y personalización de anuncios.
+Ciudad o región inferida a partir de la IP (no se usa GPS). Sirve para estadísticas agregadas y personalización de anuncios.
 
 1.3 Datos de autenticación
-ID, nombre, foto y correo público de tu cuenta Google (a través de Google Sign-In). Se usan para iniciar sesión y sincronizar tu progreso en Firebase.
+ID, nombre, foto y correo público de la cuenta Google utilizada para iniciar sesión (Google Sign-In) y su token de sesión en Firebase Authentication. Se utilizan para crear tu perfil y sincronizar tu progreso.
 
 1.4 Datos de juego
-Estado de la mascota, nivel de alimento, inventario, códigos de invitación, identificador de tu compañero. Se almacenan en Firebase Firestore para que puedas continuar tu partida desde cualquier dispositivo.
+Estado de la mascota (nivel de alimento, objetos, nombre), códigos de invitación y UID de tu compañero. Se guardan en Firebase Firestore para que puedas continuar tu partida desde cualquier dispositivo.
 
-1.5 Datos opcionales de soporte
-La información que envíes voluntariamente al correo de contacto para resolver incidencias.
+1.5 Datos de soporte (opcionales)
+La información que envíes voluntariamente por correo electrónico cuando solicites ayuda.
 
 2. Servicios de terceros
-Google Play Services – compatibilidad básica de Android y analítica anónima.
+• Google Play Services – compatibilidad básica y estadísticas de fallos.
+• Google Sign-In / Firebase Authentication – autenticación segura.
+• Firebase Firestore / Cloud Functions – almacenamiento y sincronización en la nube.
+• Google AdMob – publicidad dentro de la app (incluye anuncios con recompensa aptos para todo público).
 
-Google Sign-In / Firebase Authentication – autenticación segura con tu cuenta Google.
+Cada servicio gestiona los datos según sus propias políticas de privacidad.
 
-Firebase Firestore / Cloud Functions – guardado y sincronización en la nube de tu progreso, así como métricas de uso agregadas.
+3. Finalidad del tratamiento
+• Operar y mantener la Aplicación.
+• Sincronizar tu progreso y emparejarte con otro jugador si lo deseas.
+• Analizar rendimiento y uso de forma agregada.
+• Mostrar publicidad contextual o personalizada (incluidos anuncios con recompensa).
+• Enviar avisos importantes relativos al servicio.
+• Cumplir con obligaciones legales.
 
-Google AdMob – publicidad in-app, incluidos anuncios con recompensa (por ejemplo para obtener moneda del juego).
-
-Cada servicio aplica su propia política de privacidad.
-
-3. Uso de la información
-Operar, mantener y mejorar la Aplicación y sus funciones sociales.
-
-Sincronizar tu progreso entre dispositivos.
-
-Analizar métricas de rendimiento y uso (de forma agregada).
-
-Mostrar anuncios contextuales o personalizados, incluidos anuncios recompensados.
-
-Enviar avisos esenciales sobre el servicio.
-
-Cumplir con obligaciones legales o requerimientos de autoridades competentes.
-
-4. Divulgación de datos
-Compartimos datos únicamente:
-
-Con proveedores de servicio de confianza (Google Play Services, Firebase, AdMob) bajo acuerdos de confidencialidad y siempre el mínimo necesario.
-
-Cuando la ley lo requiera o para proteger derechos, seguridad o propiedad del desarrollador o de otros usuarios.
-
-En forma agregada y anonimizada para fines estadísticos.
-
-No vendemos datos personales a terceros.
+4. Divulgación
+Solo compartimos datos:
+a) con proveedores de servicio de confianza (Google Play Services, Firebase, AdMob) bajo acuerdos de confidencialidad y el mínimo necesario;
+b) cuando lo exija la ley o para proteger derechos y seguridad;
+c) en forma agregada y anonimizada para estadísticas.
+Nunca vendemos datos personales a terceros.
 
 5. Retención y eliminación
-Conservamos tus datos mientras mantengas una cuenta activa y por un periodo razonable posterior para copias de seguridad y cumplimiento legal.
-Puedes solicitar la eliminación definitiva escribiendo a henrydevops6@gmail.com; la petición se atenderá en un plazo máximo de 30 días.
+Guardamos la información mientras tu cuenta esté activa y durante un periodo razonable después para copias de seguridad y cumplimiento legal.
+Puedes solicitar la eliminación de tus datos escribiendo a henrydevops6@gmail.com; responderemos en un plazo máximo de 30 días.
 
 6. Seguridad
-Aplicamos medidas técnicas y organizativas razonables (cifrado en tránsito, reglas de seguridad de Firebase, control de acceso) para proteger tu información. Aun así, ningún sistema es 100 % seguro; aceptas este riesgo al utilizar la Aplicación.
+Aplicamos medidas técnicas y organizativas razonables (cifrado en tránsito, reglas de seguridad de Firebase, control de acceso). Aun así, ningún sistema es infalible; usas la Aplicación bajo tu propio riesgo.
 
-7. Privacidad de menores
-La Aplicación no está dirigida a menores de 13 años y no recopilamos deliberadamente datos de menores. Si descubres que un menor nos ha proporcionado datos personales, contáctanos para eliminarlos inmediatamente.
+7. Menores de edad
+Tralalero Pet está diseñado para todo público y no contiene violencia ni contenido sensible.
+Si eres menor de 13 años (o la edad mínima de tu jurisdicción) debes usar la Aplicación con el consentimiento y la supervisión de tu padre, madre o tutor y a través de una cuenta Google apta para menores. No recopilamos intencionadamente datos personales de menores sin dicho consentimiento. Si algún representante legal cree que hemos recopilado datos sin autorización, puede solicitar su eliminación mediante el correo de contacto.
 
-8. Derechos y exclusión
-Acceso / rectificación: puedes solicitarnos copia o corrección de tus datos.
+8. Derechos del usuario
+• Acceso y rectificación de tus datos.
+• Eliminación de la cuenta (punto 5).
+• Oposición o revocación de permisos: desinstala la Aplicación y revoca el acceso de Tralalero Pet en tu cuenta Google.
 
-Eliminación: pide la supresión de tu cuenta y datos (ver punto 5).
-
-Oposición / revocación: desinstala la Aplicación y revoca el acceso en la configuración de tu cuenta Google para detener toda recopilación.
-
-9. Cambios a esta Política
-Podemos actualizar esta Política en cualquier momento. Publicaremos la versión revisada dentro de la Aplicación. El uso continuado tras la publicación implica tu aceptación de las modificaciones.
+9. Cambios en la política
+Podemos actualizar esta Política en cualquier momento. Publicaremos la versión revisada en la Aplicación; el uso continuado tras la publicación implica aceptación de las modificaciones.
 
 10. Contacto
-Para dudas o solicitudes relacionadas con privacidad, envía un correo a: henrydevops6@gmail.com
+Preguntas o solicitudes sobre privacidad: henrydevops6@gmail.com
 
 © 2025 Tralalero Pet – Todos los derechos reservados
